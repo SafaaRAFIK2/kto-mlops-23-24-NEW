@@ -3,7 +3,7 @@ from io import BytesIO
 import numpy as np
 from keras.models import load_model
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
-from kto.inference import Inference
+
 
 # load and prepare the image
 def load_image(filename: str|BytesIO):
